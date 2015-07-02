@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'GhostLoginClient_Example', :exclusive => true do
+  pod "GhostLoginClient", :path => "../"
+end
+
+target 'GhostLoginClient_Tests', :exclusive => true do
+  pod "GhostLoginClient", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
