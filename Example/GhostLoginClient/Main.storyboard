@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,8 +16,102 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kdC-hI-oUG">
+                                <rect key="frame" x="16" y="166" width="568" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SZh-HP-ccb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Domain" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2yF-u3-cHP">
+                                <rect key="frame" x="16" y="222" width="568" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="i9H-LL-07S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="done"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GHOST LOGIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8F-PC-LI4">
+                                <rect key="frame" x="16" y="50" width="568" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWG-ff-yuY">
+                                <rect key="frame" x="16" y="302" width="568" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xe8-2O-7wH"/>
+                                </constraints>
+                                <state key="normal" title="LOG IN">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapLoginButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="qTi-gm-VBc"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eyv-sd-Uo9">
+                                <rect key="frame" x="16" y="110" width="568" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="H9d-5I-FKN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g7i-Fx-bOC">
+                                <rect key="frame" x="16" y="382" width="568" height="218"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="eyv-sd-Uo9" secondAttribute="centerY" constant="207" id="0vG-3h-B6H"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kdC-hI-oUG" secondAttribute="trailing" id="2A5-U3-35G"/>
+                            <constraint firstItem="r8F-PC-LI4" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="2Wh-sC-nTd"/>
+                            <constraint firstItem="g7i-Fx-bOC" firstAttribute="top" secondItem="bWG-ff-yuY" secondAttribute="bottom" constant="40" id="5in-7x-l2s"/>
+                            <constraint firstItem="g7i-Fx-bOC" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="7f4-5u-yfb"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="g7i-Fx-bOC" secondAttribute="bottom" id="Czh-Ml-Nt4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2yF-u3-cHP" secondAttribute="trailing" id="E3P-zA-TQT"/>
+                            <constraint firstItem="2yF-u3-cHP" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="EiX-Ro-bfN"/>
+                            <constraint firstItem="eyv-sd-Uo9" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="Lzq-Y1-aQw"/>
+                            <constraint firstItem="kdC-hI-oUG" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="NLH-ey-ZKq"/>
+                            <constraint firstItem="g7i-Fx-bOC" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="PdY-7Y-Gte"/>
+                            <constraint firstItem="kdC-hI-oUG" firstAttribute="top" secondItem="eyv-sd-Uo9" secondAttribute="bottom" constant="16" id="T8b-4G-4MF"/>
+                            <constraint firstItem="r8F-PC-LI4" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="30" id="TWi-UC-BDb"/>
+                            <constraint firstItem="bWG-ff-yuY" firstAttribute="top" secondItem="2yF-u3-cHP" secondAttribute="bottom" constant="40" id="U2W-Tp-gFb"/>
+                            <constraint firstItem="kdC-hI-oUG" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="236" id="UBo-bI-g2n"/>
+                            <constraint firstItem="bWG-ff-yuY" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="Wve-fW-mZy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kdC-hI-oUG" secondAttribute="trailing" constant="235" id="YaZ-7R-Xbv"/>
+                            <constraint firstAttribute="centerY" secondItem="eyv-sd-Uo9" secondAttribute="centerY" constant="208" id="co0-gi-QFK"/>
+                            <constraint firstItem="eyv-sd-Uo9" firstAttribute="top" secondItem="r8F-PC-LI4" secondAttribute="bottom" constant="30" id="dog-OI-K02"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="r8F-PC-LI4" secondAttribute="trailing" id="kjR-9G-M6T"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bWG-ff-yuY" secondAttribute="trailing" id="knl-ga-Hye"/>
+                            <constraint firstItem="2yF-u3-cHP" firstAttribute="top" secondItem="kdC-hI-oUG" secondAttribute="bottom" constant="16" id="ueE-CP-ygx"/>
+                            <constraint firstItem="eyv-sd-Uo9" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="vc1-vK-krN"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0vG-3h-B6H"/>
+                                <exclude reference="co0-gi-QFK"/>
+                                <exclude reference="UBo-bI-g2n"/>
+                                <exclude reference="YaZ-7R-Xbv"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="domainTextField" destination="2yF-u3-cHP" id="Zae-7T-5o6"/>
+                        <outlet property="emailTextField" destination="eyv-sd-Uo9" id="T94-qW-Dxp"/>
+                        <outlet property="loginButton" destination="bWG-ff-yuY" id="IUc-0q-ziH"/>
+                        <outlet property="passwordTextField" destination="kdC-hI-oUG" id="PyF-uD-DF7"/>
+                        <outlet property="resultsTextView" destination="g7i-Fx-bOC" id="ohi-oY-eUJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

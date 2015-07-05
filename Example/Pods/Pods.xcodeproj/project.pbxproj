@@ -1,0 +1,1475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0594EABD4D5A7B459B577E2F /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5872A0DB6ECD42E2947656 /* UIAlertView+AFNetworking.h */; };
+		08D91F2EDE09084863EA5929 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5872A0DB6ECD42E2947656 /* UIAlertView+AFNetworking.h */; };
+		0AF47686BDD6337AE479BEEE /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65271658EFC0D187137F5316 /* AFHTTPSessionManager.m */; };
+		0C22A8E870E86E8B0A0702BB /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AABF123B0E7ABAE154342AD /* AFNetworkReachabilityManager.h */; };
+		0CAB4926D51B1AD0CCDF0C3B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC3EA365157C5FC88C6DF09 /* SystemConfiguration.framework */; };
+		10E15B1CB0552416BE6C8CAB /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5ACCC9E918F9B9CF691565 /* UIImageView+AFNetworking.m */; };
+		110D98CC7DFD66270B3DBA8A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3F42D9ABABF2634C98A276 /* Security.framework */; };
+		1111611BA9A24F7881FA2A16 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B36AC8E03BE00FA3B5136FD /* AFURLSessionManager.m */; };
+		126ED943C4A76F454520130A /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D053A4C7AC4885D04CCDD253 /* UIRefreshControl+AFNetworking.m */; };
+		17570668C3916177260A21B7 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 166462FCC6730EAEBD0084F2 /* AFURLConnectionOperation.m */; };
+		192E4C8BC39A4DA9AD431721 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532808FA26E58D244C58EB71 /* Foundation.framework */; };
+		22EF8284208751A348AB73C5 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B8199027990913BAC46907C9 /* UIKit+AFNetworking.h */; };
+		273260FE5C3A73E2BB702273 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A85019F52ED3AEF4AA09C64 /* UIWebView+AFNetworking.h */; };
+		276282507B8BA16C88EE0934 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 166462FCC6730EAEBD0084F2 /* AFURLConnectionOperation.m */; };
+		2F686DDA81C0380ECA5C09B8 /* KMMGhostLoginSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B66B39F1E2A6C0CA7D8E86 /* KMMGhostLoginSessionManager.h */; };
+		308380F37C1A4C03DCC6D68B /* Pods-GhostLoginClient_Tests-GhostLoginClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 231330D3E687C51761804891 /* Pods-GhostLoginClient_Tests-GhostLoginClient-dummy.m */; };
+		322DDDCE63AF19783008DD94 /* KMMGhostLoginToken.m in Sources */ = {isa = PBXBuildFile; fileRef = FE84EC8B9283CE8EDD1DFAEC /* KMMGhostLoginToken.m */; };
+		3239CAA000C30F771EB6D642 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 769BA947C8A8FBD1340EF1A3 /* AFURLSessionManager.h */; };
+		32E97293B8F46673E483ABF3 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8BE3C159F910D442205061 /* UIProgressView+AFNetworking.m */; };
+		34FCCDC58625CB76467C43F7 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 164CFDE051CAF399DFAA7BA6 /* UIProgressView+AFNetworking.h */; };
+		3592106A15F50CF731D66E43 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B711314B97422FD17023B88 /* UIActivityIndicatorView+AFNetworking.m */; };
+		38683A89EF406A3E5C8FED7A /* KMMGhostLoginTokenParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D4585041B82FE4565D7AFF /* KMMGhostLoginTokenParser.h */; };
+		3B03601C61B10A89EA790D8A /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A5C252FB9A2CAF67E2F8E9 /* UIAlertView+AFNetworking.m */; };
+		3BDFC7FDAB077747B9FD4097 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C09AC63011F4891C4F160F2C /* AFURLRequestSerialization.h */; };
+		3C52176A369E6637EE2317C2 /* Pods-GhostLoginClient_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C96C6E8DA64C0596CB9EA528 /* Pods-GhostLoginClient_Example-dummy.m */; };
+		3C82BB2EE5938708ECB68DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532808FA26E58D244C58EB71 /* Foundation.framework */; };
+		3E09C9EC46570748DE82AEB2 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B711314B97422FD17023B88 /* UIActivityIndicatorView+AFNetworking.m */; };
+		3FA8A318003A23FA4F788171 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB422396FA12FAB67240A2 /* AFURLResponseSerialization.m */; };
+		438D0E715F68A6DB59FC674D /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 33313B4F6A72A2A51427971F /* UIButton+AFNetworking.h */; };
+		4630A96B533023F4D913EF42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FE4B31C9A0F2EE2636F921 /* CoreGraphics.framework */; };
+		46BDFC266857BCA83A1D0D9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FE4B31C9A0F2EE2636F921 /* CoreGraphics.framework */; };
+		472521A725F13782911B6E87 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A85019F52ED3AEF4AA09C64 /* UIWebView+AFNetworking.h */; };
+		4818177262901754C2799F5A /* KMMGhostLoginJSONSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FC98D34FD07F0EE10DF34F /* KMMGhostLoginJSONSessionManager.h */; };
+		4829F3CAB08C5CFCF97B06DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532808FA26E58D244C58EB71 /* Foundation.framework */; };
+		4B1C9130077A3F63192AC76C /* KMMGhostLoginJSONSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FC98D34FD07F0EE10DF34F /* KMMGhostLoginJSONSessionManager.h */; };
+		4BA306A754138260BAAA212C /* KMMGhostLoginTokenJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CCCDF04195FA4C06D366D3 /* KMMGhostLoginTokenJSONParser.m */; };
+		4D9B9969DC42C00DE943F607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532808FA26E58D244C58EB71 /* Foundation.framework */; };
+		52AC655E45C488DB448A9BF3 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB422396FA12FAB67240A2 /* AFURLResponseSerialization.m */; };
+		53C47C8BC9226FDB0EF20585 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA9257BBFE5C5DEFADBA5A3 /* UIImageView+AFNetworking.h */; };
+		5485764DCB06D054749758D6 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DDC6087867B83E8D66A0D5 /* UIButton+AFNetworking.m */; };
+		58C096D2EB59115FAE201939 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9985C72E35D4B49070A2C06E /* AFSecurityPolicy.h */; };
+		58F9567C160901851C4FBE05 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E385835F9FA146D116A7F1D /* AFHTTPRequestOperation.m */; };
+		59DA331EA2151CBA6C8BB47C /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE328511DBA3192A9E04EF5 /* AFURLResponseSerialization.h */; };
+		5A7E8CBAA1533A5E01A8031C /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F1675C96E73FAFD01C9E45 /* AFHTTPSessionManager.h */; };
+		5B771DC7C1A9D4AAF89E6CF1 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5ACCC9E918F9B9CF691565 /* UIImageView+AFNetworking.m */; };
+		5D36D77D72BA3526E6162E63 /* KMMGhostLoginClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCB979DF89124CDF685DCB /* KMMGhostLoginClient.m */; };
+		5E53934111E290A4B8DB429D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F4FFA52FEAA35FC1CF68BD /* MobileCoreServices.framework */; };
+		60B2E2E5A94EBEE0205D336A /* KMMGhostLoginToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D6A86E96F5D16C4C3FC5CC /* KMMGhostLoginToken.h */; };
+		611FB829543B3A0BC5FB9331 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F4FFA52FEAA35FC1CF68BD /* MobileCoreServices.framework */; };
+		633888056F287E25EF2E5354 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE64946D2A8FF601B3B6A46 /* UIRefreshControl+AFNetworking.h */; };
+		64C575A854DC056D29E04C02 /* KMMGhostLoginTokenJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A5D1C3E1374018CB720438 /* KMMGhostLoginTokenJSONParser.h */; };
+		690B784DFE9E10748B621BE1 /* KMMGhostLoginToken.m in Sources */ = {isa = PBXBuildFile; fileRef = FE84EC8B9283CE8EDD1DFAEC /* KMMGhostLoginToken.m */; };
+		69879454609D649B5880BC81 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 741158597589C0C6D1309398 /* AFURLConnectionOperation.h */; };
+		7469CF036E28F415D67553AB /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D85D974643B8E88DD85C5A4 /* AFHTTPRequestOperation.h */; };
+		7B3E59BA5B246CEA67C2E3DF /* KMMGhostLoginJSONSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1C9BC51BC60E6351BE1F12 /* KMMGhostLoginJSONSessionManager.m */; };
+		7BE906D0CF55370642DD41B4 /* KMMGhostLoginSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B66B39F1E2A6C0CA7D8E86 /* KMMGhostLoginSessionManager.h */; };
+		7C92A664E63C6AD8F6AAF09C /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA9257BBFE5C5DEFADBA5A3 /* UIImageView+AFNetworking.h */; };
+		7ECAA2507A439A6AE2B37BFA /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4EE127C06F773EDE87AE66 /* UIActivityIndicatorView+AFNetworking.h */; };
+		812EED4FD502494C6EC573C3 /* KMMGhostLoginClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 667B88317B537B9AB8FCB0DC /* KMMGhostLoginClient.h */; };
+		8278D28748EB8017D8C9F8E1 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE328511DBA3192A9E04EF5 /* AFURLResponseSerialization.h */; };
+		86ED274A1F3464DFC73482F2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C82FB149ABC611C58AB50BA9 /* AFSecurityPolicy.m */; };
+		882C16F11E489F264A5BAB7A /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 001012CF62EFDB23A3E654DE /* AFNetworkActivityIndicatorManager.m */; };
+		892AE597FCCE1C23E8274BB5 /* KMMGhostLoginClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 667B88317B537B9AB8FCB0DC /* KMMGhostLoginClient.h */; };
+		895CC40853C1DB18F8C1CCD3 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A65B20618779AF2FE0C4525A /* AFNetworkActivityIndicatorManager.h */; };
+		8DAC7C21F56B7376C9F28188 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B36AC8E03BE00FA3B5136FD /* AFURLSessionManager.m */; };
+		8DFF276B0518E3DE75ECD3B6 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D85D974643B8E88DD85C5A4 /* AFHTTPRequestOperation.h */; };
+		8E33DD8691D3B713AF9E05C4 /* KMMGhostLoginToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D6A86E96F5D16C4C3FC5CC /* KMMGhostLoginToken.h */; };
+		9063BE97CEF5142AF7655DA9 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8BE3C159F910D442205061 /* UIProgressView+AFNetworking.m */; };
+		9219A6F7F9B5A3BF4E78F42D /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9985C72E35D4B49070A2C06E /* AFSecurityPolicy.h */; };
+		942AE5E78279F45BC053DE57 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C09AC63011F4891C4F160F2C /* AFURLRequestSerialization.h */; };
+		972E589CFC3971958CB57303 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 730A0D40FBBDCECA13B9A82E /* AFNetworking.h */; };
+		989A42B76003BB36C1FBA725 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65271658EFC0D187137F5316 /* AFHTTPSessionManager.m */; };
+		998205CD9628B109C9E34DBB /* KMMGhostLoginTokenParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A809258B18011B56910DB7 /* KMMGhostLoginTokenParser.m */; };
+		9AD885427613AA4D0A541736 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B8199027990913BAC46907C9 /* UIKit+AFNetworking.h */; };
+		9D6A69FE716E6E298DC6EABF /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4EE127C06F773EDE87AE66 /* UIActivityIndicatorView+AFNetworking.h */; };
+		9F551D9D119E7C6595C21ABC /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C4364FBD0D6A6C7B8E2BAB10 /* UIWebView+AFNetworking.m */; };
+		A3BC64CC7995176F58612E80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532808FA26E58D244C58EB71 /* Foundation.framework */; };
+		A8ED48E280B60783605130EE /* KMMGhostLoginTokenJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CCCDF04195FA4C06D366D3 /* KMMGhostLoginTokenJSONParser.m */; };
+		AB68FB5B03C5DB2B5A36EE98 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 449478C19648BDABDDA8A674 /* AFURLRequestSerialization.m */; };
+		AED9D876C168BC88EF9516FD /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 001012CF62EFDB23A3E654DE /* AFNetworkActivityIndicatorManager.m */; };
+		AF9F25716137ADCD3D2E5E9D /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D053A4C7AC4885D04CCDD253 /* UIRefreshControl+AFNetworking.m */; };
+		B0EF97D766E539A991CD67E0 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 164CFDE051CAF399DFAA7BA6 /* UIProgressView+AFNetworking.h */; };
+		B1F3C449C46C56D3C8C25BBF /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E385835F9FA146D116A7F1D /* AFHTTPRequestOperation.m */; };
+		B256D0CE206805CD612D10A2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C82FB149ABC611C58AB50BA9 /* AFSecurityPolicy.m */; };
+		B70C96FA4F7361B8B6125EB4 /* KMMGhostLoginTokenJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A5D1C3E1374018CB720438 /* KMMGhostLoginTokenJSONParser.h */; };
+		B730A8AAC918B69B40EC969E /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F1675C96E73FAFD01C9E45 /* AFHTTPSessionManager.h */; };
+		C1309F9CDFFDBEE33F7F71B6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3F42D9ABABF2634C98A276 /* Security.framework */; };
+		C3EDF02ECF09711E2F519DEB /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 769BA947C8A8FBD1340EF1A3 /* AFURLSessionManager.h */; };
+		C42AC8405B1084847887274A /* KMMGhostLoginClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCB979DF89124CDF685DCB /* KMMGhostLoginClient.m */; };
+		C6A56AED6628870B8AA13161 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F980BF711477CCDD51A4BAE2 /* AFHTTPRequestOperationManager.m */; };
+		C7488734E1A752AC0FD936D8 /* KMMGhostLoginJSONSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1C9BC51BC60E6351BE1F12 /* KMMGhostLoginJSONSessionManager.m */; };
+		C88EFDF422CC2D496CC13C28 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 741158597589C0C6D1309398 /* AFURLConnectionOperation.h */; };
+		CBDBC8AC7D9A82700AD6DAAA /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 33313B4F6A72A2A51427971F /* UIButton+AFNetworking.h */; };
+		CE4117283F7B2779D75C2600 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE64946D2A8FF601B3B6A46 /* UIRefreshControl+AFNetworking.h */; };
+		CEF11D4BA154521E80145B69 /* Pods-GhostLoginClient_Example-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E88C8E166805A25690832D /* Pods-GhostLoginClient_Example-AFNetworking-dummy.m */; };
+		DB14F6B532E568B77460DB4D /* KMMGhostLoginTokenParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A809258B18011B56910DB7 /* KMMGhostLoginTokenParser.m */; };
+		DE8306D663C23AFEF878ADB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532808FA26E58D244C58EB71 /* Foundation.framework */; };
+		E143E7D3D91A1E9D0FC053CF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 730A0D40FBBDCECA13B9A82E /* AFNetworking.h */; };
+		E1EBCE1FEA7BACE490BB9E8F /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A5C252FB9A2CAF67E2F8E9 /* UIAlertView+AFNetworking.m */; };
+		E22AF6AAD418AFDCD476B09D /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 02788CDAEC5FE63CF3B87896 /* AFHTTPRequestOperationManager.h */; };
+		E50E5DB58F32358842A542AA /* Pods-GhostLoginClient_Tests-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF36384A4651744DD73EEE0B /* Pods-GhostLoginClient_Tests-AFNetworking-dummy.m */; };
+		E5EFEE17BDBA1D9FA36E53EC /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C4364FBD0D6A6C7B8E2BAB10 /* UIWebView+AFNetworking.m */; };
+		E6A9B2768F334FA5CFED64A3 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DDC6087867B83E8D66A0D5 /* UIButton+AFNetworking.m */; };
+		E6FC369AE50F67EA29BCFA7C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A65B20618779AF2FE0C4525A /* AFNetworkActivityIndicatorManager.h */; };
+		E8F58D04076E45D1B85072C9 /* Pods-GhostLoginClient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E588CB7B573DD6F8E56FB8A1 /* Pods-GhostLoginClient_Tests-dummy.m */; };
+		EFA2F96A6CFE5EF8B3F4DE99 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F980BF711477CCDD51A4BAE2 /* AFHTTPRequestOperationManager.m */; };
+		F1A4DFA11EBE8ACBBB8647C2 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 723DB6958534FB347A2600A0 /* AFNetworkReachabilityManager.m */; };
+		F23458F1E682DEB88A6AAA65 /* KMMGhostLoginTokenParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D4585041B82FE4565D7AFF /* KMMGhostLoginTokenParser.h */; };
+		F397D9B94B81C4B578CACFF0 /* Pods-GhostLoginClient_Example-GhostLoginClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CDF82489325EA12559E98 /* Pods-GhostLoginClient_Example-GhostLoginClient-dummy.m */; };
+		F3D53803669F95F68524DCAB /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AABF123B0E7ABAE154342AD /* AFNetworkReachabilityManager.h */; };
+		F3EC4F29789429ED4547F7C4 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 02788CDAEC5FE63CF3B87896 /* AFHTTPRequestOperationManager.h */; };
+		F4A748A0636DC61F83F382A9 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 723DB6958534FB347A2600A0 /* AFNetworkReachabilityManager.m */; };
+		F695DEB7495579B5EB99D8E5 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 449478C19648BDABDDA8A674 /* AFURLRequestSerialization.m */; };
+		FCB8F88D26B3156C4013D1B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC3EA365157C5FC88C6DF09 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B5E1CB29D5AB30AEE9C1163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525D9CEBF96E2D5272625B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DF76E2AD5E8BB954279B92A;
+			remoteInfo = "Pods-GhostLoginClient_Tests-GhostLoginClient-GhostLoginClient";
+		};
+		3AA7252CF1FE06AA3F4872C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525D9CEBF96E2D5272625B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51DF136E8421FA89B91FD44;
+			remoteInfo = "Pods-GhostLoginClient_Tests-AFNetworking";
+		};
+		4ADAB79B92B3FF96263B97DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525D9CEBF96E2D5272625B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DF9CDDF0D56FBA58E711159;
+			remoteInfo = "Pods-GhostLoginClient_Example-GhostLoginClient-GhostLoginClient";
+		};
+		7634180CE93B5CA4242BC79C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525D9CEBF96E2D5272625B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9F4FE61EFECC13F3596932;
+			remoteInfo = "Pods-GhostLoginClient_Tests-GhostLoginClient";
+		};
+		ABEA10C2575D56A1E7AE3837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525D9CEBF96E2D5272625B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF1B655DEE0E4A3DD2E1A7C;
+			remoteInfo = "Pods-GhostLoginClient_Example-AFNetworking";
+		};
+		CA6DBCB290DF9B24FDA986DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525D9CEBF96E2D5272625B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF1B655DEE0E4A3DD2E1A7C;
+			remoteInfo = "Pods-GhostLoginClient_Example-AFNetworking";
+		};
+		E48DC611E7D930965AC7DD0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525D9CEBF96E2D5272625B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51DF136E8421FA89B91FD44;
+			remoteInfo = "Pods-GhostLoginClient_Tests-AFNetworking";
+		};
+		E59F29404E538B560C349494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3525D9CEBF96E2D5272625B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD074AA8CC2330423DE79E6E;
+			remoteInfo = "Pods-GhostLoginClient_Example-GhostLoginClient";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000A0A3D763D5EF101CC7B26 /* Pods-GhostLoginClient_Tests-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostLoginClient_Tests-AFNetworking-Private.xcconfig"; path = "../Pods-GhostLoginClient_Tests-AFNetworking/Pods-GhostLoginClient_Tests-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		001012CF62EFDB23A3E654DE /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		02788CDAEC5FE63CF3B87896 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		05719CFF3F9EE0F28847F636 /* Pods-GhostLoginClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostLoginClient_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0DBDAB1C12AA799717F7C60B /* Pods-GhostLoginClient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostLoginClient_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0E337CA137875EC8FD83D818 /* libPods-GhostLoginClient_Tests-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostLoginClient_Tests-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		164CFDE051CAF399DFAA7BA6 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		166462FCC6730EAEBD0084F2 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		1E5CDF82489325EA12559E98 /* Pods-GhostLoginClient_Example-GhostLoginClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GhostLoginClient_Example-GhostLoginClient-dummy.m"; sourceTree = "<group>"; };
+		20B559C963781DA70C7E0DCC /* Pods-GhostLoginClient_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GhostLoginClient_Example-environment.h"; sourceTree = "<group>"; };
+		231330D3E687C51761804891 /* Pods-GhostLoginClient_Tests-GhostLoginClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-GhostLoginClient_Tests-GhostLoginClient-dummy.m"; path = "../Pods-GhostLoginClient_Tests-GhostLoginClient/Pods-GhostLoginClient_Tests-GhostLoginClient-dummy.m"; sourceTree = "<group>"; };
+		261AE8D6FDA1D4558B27AE7D /* Pods-GhostLoginClient_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GhostLoginClient_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		270628BFEC2F5FB97BD0551D /* Pods-GhostLoginClient_Tests-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostLoginClient_Tests-AFNetworking.xcconfig"; path = "../Pods-GhostLoginClient_Tests-AFNetworking/Pods-GhostLoginClient_Tests-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		2B03984F9B0F4553FE24EE30 /* Pods-GhostLoginClient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GhostLoginClient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33313B4F6A72A2A51427971F /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		3A85019F52ED3AEF4AA09C64 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		3AABF123B0E7ABAE154342AD /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		3E2CFBD32EB2E147407ADD31 /* GhostLoginClient.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhostLoginClient.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		449478C19648BDABDDA8A674 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		44FE4B31C9A0F2EE2636F921 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4545A857727E23B6BAF54040 /* Pods-GhostLoginClient_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GhostLoginClient_Example-resources.sh"; sourceTree = "<group>"; };
+		46CE102AD3FB708AAC6B59F6 /* Pods-GhostLoginClient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostLoginClient_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		47DDC6087867B83E8D66A0D5 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		4A4EE127C06F773EDE87AE66 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		4E385835F9FA146D116A7F1D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		532808FA26E58D244C58EB71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		55CCCDF04195FA4C06D366D3 /* KMMGhostLoginTokenJSONParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMMGhostLoginTokenJSONParser.m; sourceTree = "<group>"; };
+		56A2855068D0D3740C7FD22A /* Pods-GhostLoginClient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GhostLoginClient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		56CCEF44F9B86154A3D9272D /* Pods-GhostLoginClient_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GhostLoginClient_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5789B9492D1595F6B0F3FEBB /* Pods-GhostLoginClient_Example-GhostLoginClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GhostLoginClient_Example-GhostLoginClient-prefix.pch"; sourceTree = "<group>"; };
+		57B66B39F1E2A6C0CA7D8E86 /* KMMGhostLoginSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMMGhostLoginSessionManager.h; sourceTree = "<group>"; };
+		59F1675C96E73FAFD01C9E45 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		5B36AC8E03BE00FA3B5136FD /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		5B711314B97422FD17023B88 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		5D85D974643B8E88DD85C5A4 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		5F0A4F542F80490D9E312FF1 /* libPods-GhostLoginClient_Tests-GhostLoginClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostLoginClient_Tests-GhostLoginClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D6A86E96F5D16C4C3FC5CC /* KMMGhostLoginToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMMGhostLoginToken.h; sourceTree = "<group>"; };
+		65271658EFC0D187137F5316 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		667B88317B537B9AB8FCB0DC /* KMMGhostLoginClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMMGhostLoginClient.h; sourceTree = "<group>"; };
+		6A5ACCC9E918F9B9CF691565 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		6CE64946D2A8FF601B3B6A46 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		6EDCB979DF89124CDF685DCB /* KMMGhostLoginClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMMGhostLoginClient.m; sourceTree = "<group>"; };
+		71B20E523109CBB11DADDD0F /* Pods-GhostLoginClient_Tests-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-GhostLoginClient_Tests-AFNetworking-prefix.pch"; path = "../Pods-GhostLoginClient_Tests-AFNetworking/Pods-GhostLoginClient_Tests-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		723DB6958534FB347A2600A0 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		730A0D40FBBDCECA13B9A82E /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		73A5C252FB9A2CAF67E2F8E9 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		741158597589C0C6D1309398 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		769BA947C8A8FBD1340EF1A3 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		77E88C8E166805A25690832D /* Pods-GhostLoginClient_Example-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GhostLoginClient_Example-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		78A5D1C3E1374018CB720438 /* KMMGhostLoginTokenJSONParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMMGhostLoginTokenJSONParser.h; sourceTree = "<group>"; };
+		8353185B5935A0C04520DBD5 /* Pods-GhostLoginClient_Tests-GhostLoginClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostLoginClient_Tests-GhostLoginClient.xcconfig"; path = "../Pods-GhostLoginClient_Tests-GhostLoginClient/Pods-GhostLoginClient_Tests-GhostLoginClient.xcconfig"; sourceTree = "<group>"; };
+		838EA53C08440A69649DC446 /* Pods-GhostLoginClient_Example-GhostLoginClient-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostLoginClient_Example-GhostLoginClient-Private.xcconfig"; sourceTree = "<group>"; };
+		844C45867F44C4934D92C103 /* libPods-GhostLoginClient_Example-GhostLoginClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostLoginClient_Example-GhostLoginClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F21084DDA20F98FEE77D4A6 /* Pods-GhostLoginClient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostLoginClient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		934F7A61D197FEF2DED7A57E /* Pods-GhostLoginClient_Example-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostLoginClient_Example-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		9648991D6A50275131E1EC3A /* libPods-GhostLoginClient_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostLoginClient_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9985C72E35D4B49070A2C06E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		99D4585041B82FE4565D7AFF /* KMMGhostLoginTokenParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMMGhostLoginTokenParser.h; sourceTree = "<group>"; };
+		A0FC98D34FD07F0EE10DF34F /* KMMGhostLoginJSONSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMMGhostLoginJSONSessionManager.h; sourceTree = "<group>"; };
+		A29A5FD1159B2EAF4A31DC35 /* Pods-GhostLoginClient_Tests-GhostLoginClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-GhostLoginClient_Tests-GhostLoginClient-prefix.pch"; path = "../Pods-GhostLoginClient_Tests-GhostLoginClient/Pods-GhostLoginClient_Tests-GhostLoginClient-prefix.pch"; sourceTree = "<group>"; };
+		A65B20618779AF2FE0C4525A /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		AC8BE3C159F910D442205061 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		AD5B3DDE1ADA9AE38701116F /* Pods-GhostLoginClient_Example-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GhostLoginClient_Example-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		B75A6FDCC902EE91D2D171D3 /* Pods-GhostLoginClient_Example-GhostLoginClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostLoginClient_Example-GhostLoginClient.xcconfig"; sourceTree = "<group>"; };
+		B8199027990913BAC46907C9 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		BA51F9DFB8C59BF26AAEF2CA /* Pods-GhostLoginClient_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GhostLoginClient_Tests-environment.h"; sourceTree = "<group>"; };
+		BC4864976EED3E709F0E89DD /* Pods-GhostLoginClient_Example-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostLoginClient_Example-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		BF3FF07F148BDAE7D2FCEBED /* Pods-GhostLoginClient_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GhostLoginClient_Tests-resources.sh"; sourceTree = "<group>"; };
+		C09AC63011F4891C4F160F2C /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		C0A252C6C4F58E8550173AED /* libPods-GhostLoginClient_Example-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostLoginClient_Example-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B64AB8EFB1B5926D9A5B2C /* GhostLoginClient.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhostLoginClient.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CA87AEB38BEB7272BBD138 /* libPods-GhostLoginClient_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostLoginClient_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4364FBD0D6A6C7B8E2BAB10 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		C4FB422396FA12FAB67240A2 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		C82FB149ABC611C58AB50BA9 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		C96C6E8DA64C0596CB9EA528 /* Pods-GhostLoginClient_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GhostLoginClient_Example-dummy.m"; sourceTree = "<group>"; };
+		CC5872A0DB6ECD42E2947656 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		CE3F42D9ABABF2634C98A276 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		D053A4C7AC4885D04CCDD253 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		D755AC23769D24E88DC084FE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DEA9257BBFE5C5DEFADBA5A3 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		DF36384A4651744DD73EEE0B /* Pods-GhostLoginClient_Tests-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-GhostLoginClient_Tests-AFNetworking-dummy.m"; path = "../Pods-GhostLoginClient_Tests-AFNetworking/Pods-GhostLoginClient_Tests-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		E20739869596CBECC5A3A8B2 /* Pods-GhostLoginClient_Tests-GhostLoginClient-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostLoginClient_Tests-GhostLoginClient-Private.xcconfig"; path = "../Pods-GhostLoginClient_Tests-GhostLoginClient/Pods-GhostLoginClient_Tests-GhostLoginClient-Private.xcconfig"; sourceTree = "<group>"; };
+		E4A809258B18011B56910DB7 /* KMMGhostLoginTokenParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMMGhostLoginTokenParser.m; sourceTree = "<group>"; };
+		E588CB7B573DD6F8E56FB8A1 /* Pods-GhostLoginClient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GhostLoginClient_Tests-dummy.m"; sourceTree = "<group>"; };
+		EA1C9BC51BC60E6351BE1F12 /* KMMGhostLoginJSONSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMMGhostLoginJSONSessionManager.m; sourceTree = "<group>"; };
+		F7F4FFA52FEAA35FC1CF68BD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		F980BF711477CCDD51A4BAE2 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		FAE328511DBA3192A9E04EF5 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		FDC3EA365157C5FC88C6DF09 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		FE84EC8B9283CE8EDD1DFAEC /* KMMGhostLoginToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KMMGhostLoginToken.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD8FBA6B0DBEF9CFED56DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8306D663C23AFEF878ADB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C56AD76ABE74B704B71D265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C82BB2EE5938708ECB68DCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638D4E18B93943E319FEC10E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E02478E49DFAD6CCA5280F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD2D56D70912D67643A7169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4630A96B533023F4D913EF42 /* CoreGraphics.framework in Frameworks */,
+				4D9B9969DC42C00DE943F607 /* Foundation.framework in Frameworks */,
+				611FB829543B3A0BC5FB9331 /* MobileCoreServices.framework in Frameworks */,
+				110D98CC7DFD66270B3DBA8A /* Security.framework in Frameworks */,
+				FCB8F88D26B3156C4013D1B1 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21D9CD4CA789B69E231B471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BDFC266857BCA83A1D0D9C /* CoreGraphics.framework in Frameworks */,
+				4829F3CAB08C5CFCF97B06DB /* Foundation.framework in Frameworks */,
+				5E53934111E290A4B8DB429D /* MobileCoreServices.framework in Frameworks */,
+				C1309F9CDFFDBEE33F7F71B6 /* Security.framework in Frameworks */,
+				0CAB4926D51B1AD0CCDF0C3B /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45B53731651E77F0CDD70B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BC64CC7995176F58612E80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE4D01245030A626B69C3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192E4C8BC39A4DA9AD431721 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CD99721BC1CB9DE99DB266 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B75A6FDCC902EE91D2D171D3 /* Pods-GhostLoginClient_Example-GhostLoginClient.xcconfig */,
+				838EA53C08440A69649DC446 /* Pods-GhostLoginClient_Example-GhostLoginClient-Private.xcconfig */,
+				1E5CDF82489325EA12559E98 /* Pods-GhostLoginClient_Example-GhostLoginClient-dummy.m */,
+				5789B9492D1595F6B0F3FEBB /* Pods-GhostLoginClient_Example-GhostLoginClient-prefix.pch */,
+				8353185B5935A0C04520DBD5 /* Pods-GhostLoginClient_Tests-GhostLoginClient.xcconfig */,
+				E20739869596CBECC5A3A8B2 /* Pods-GhostLoginClient_Tests-GhostLoginClient-Private.xcconfig */,
+				231330D3E687C51761804891 /* Pods-GhostLoginClient_Tests-GhostLoginClient-dummy.m */,
+				A29A5FD1159B2EAF4A31DC35 /* Pods-GhostLoginClient_Tests-GhostLoginClient-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-GhostLoginClient_Example-GhostLoginClient";
+			sourceTree = "<group>";
+		};
+		0DE835836231DC640086B7BE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A64CFD9E2D2D39DC67CDBBBC /* GhostLoginClient */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		17300B80B7DC75303A641682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC5F9954C2DEBE53218ADE41 /* AFNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		18C8F633F5B21EF43694956B /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				C09AC63011F4891C4F160F2C /* AFURLRequestSerialization.h */,
+				449478C19648BDABDDA8A674 /* AFURLRequestSerialization.m */,
+				FAE328511DBA3192A9E04EF5 /* AFURLResponseSerialization.h */,
+				C4FB422396FA12FAB67240A2 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		2CF637699E066ECCBADFC25F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61D6A86E96F5D16C4C3FC5CC /* KMMGhostLoginToken.h */,
+				FE84EC8B9283CE8EDD1DFAEC /* KMMGhostLoginToken.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CF6F1501DD793B4D0686E5B /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				5D85D974643B8E88DD85C5A4 /* AFHTTPRequestOperation.h */,
+				4E385835F9FA146D116A7F1D /* AFHTTPRequestOperation.m */,
+				02788CDAEC5FE63CF3B87896 /* AFHTTPRequestOperationManager.h */,
+				F980BF711477CCDD51A4BAE2 /* AFHTTPRequestOperationManager.m */,
+				741158597589C0C6D1309398 /* AFURLConnectionOperation.h */,
+				166462FCC6730EAEBD0084F2 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		34797E664183932110EE891C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC4864976EED3E709F0E89DD /* Pods-GhostLoginClient_Example-AFNetworking.xcconfig */,
+				934F7A61D197FEF2DED7A57E /* Pods-GhostLoginClient_Example-AFNetworking-Private.xcconfig */,
+				77E88C8E166805A25690832D /* Pods-GhostLoginClient_Example-AFNetworking-dummy.m */,
+				AD5B3DDE1ADA9AE38701116F /* Pods-GhostLoginClient_Example-AFNetworking-prefix.pch */,
+				270628BFEC2F5FB97BD0551D /* Pods-GhostLoginClient_Tests-AFNetworking.xcconfig */,
+				000A0A3D763D5EF101CC7B26 /* Pods-GhostLoginClient_Tests-AFNetworking-Private.xcconfig */,
+				DF36384A4651744DD73EEE0B /* Pods-GhostLoginClient_Tests-AFNetworking-dummy.m */,
+				71B20E523109CBB11DADDD0F /* Pods-GhostLoginClient_Tests-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-GhostLoginClient_Example-AFNetworking";
+			sourceTree = "<group>";
+		};
+		40F39D8D7828C05ACE3F3863 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				9985C72E35D4B49070A2C06E /* AFSecurityPolicy.h */,
+				C82FB149ABC611C58AB50BA9 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		4F78473292802799A05AEA7E /* Pods-GhostLoginClient_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2B03984F9B0F4553FE24EE30 /* Pods-GhostLoginClient_Tests-acknowledgements.markdown */,
+				56A2855068D0D3740C7FD22A /* Pods-GhostLoginClient_Tests-acknowledgements.plist */,
+				E588CB7B573DD6F8E56FB8A1 /* Pods-GhostLoginClient_Tests-dummy.m */,
+				BA51F9DFB8C59BF26AAEF2CA /* Pods-GhostLoginClient_Tests-environment.h */,
+				BF3FF07F148BDAE7D2FCEBED /* Pods-GhostLoginClient_Tests-resources.sh */,
+				8F21084DDA20F98FEE77D4A6 /* Pods-GhostLoginClient_Tests.debug.xcconfig */,
+				46CE102AD3FB708AAC6B59F6 /* Pods-GhostLoginClient_Tests.release.xcconfig */,
+			);
+			name = "Pods-GhostLoginClient_Tests";
+			path = "Target Support Files/Pods-GhostLoginClient_Tests";
+			sourceTree = "<group>";
+		};
+		584EFEF3D376B938123E03DF /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				78A5D1C3E1374018CB720438 /* KMMGhostLoginTokenJSONParser.h */,
+				55CCCDF04195FA4C06D366D3 /* KMMGhostLoginTokenJSONParser.m */,
+				99D4585041B82FE4565D7AFF /* KMMGhostLoginTokenParser.h */,
+				E4A809258B18011B56910DB7 /* KMMGhostLoginTokenParser.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		715AC0386F4BB371D7844764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B02573D17ECFB6C908030CA9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D3786562B03395A46F60B51 /* Pods-GhostLoginClient_Example */ = {
+			isa = PBXGroup;
+			children = (
+				56CCEF44F9B86154A3D9272D /* Pods-GhostLoginClient_Example-acknowledgements.markdown */,
+				261AE8D6FDA1D4558B27AE7D /* Pods-GhostLoginClient_Example-acknowledgements.plist */,
+				C96C6E8DA64C0596CB9EA528 /* Pods-GhostLoginClient_Example-dummy.m */,
+				20B559C963781DA70C7E0DCC /* Pods-GhostLoginClient_Example-environment.h */,
+				4545A857727E23B6BAF54040 /* Pods-GhostLoginClient_Example-resources.sh */,
+				0DBDAB1C12AA799717F7C60B /* Pods-GhostLoginClient_Example.debug.xcconfig */,
+				05719CFF3F9EE0F28847F636 /* Pods-GhostLoginClient_Example.release.xcconfig */,
+			);
+			name = "Pods-GhostLoginClient_Example";
+			path = "Target Support Files/Pods-GhostLoginClient_Example";
+			sourceTree = "<group>";
+		};
+		A1767785169694AB5D650DAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D3786562B03395A46F60B51 /* Pods-GhostLoginClient_Example */,
+				4F78473292802799A05AEA7E /* Pods-GhostLoginClient_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A64CFD9E2D2D39DC67CDBBBC /* GhostLoginClient */ = {
+			isa = PBXGroup;
+			children = (
+				FAAD2C7C3699F66ADF09CB92 /* Pod */,
+				02CD99721BC1CB9DE99DB266 /* Support Files */,
+			);
+			name = GhostLoginClient;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AD99C7AA22A78965BB7C3BE9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A0FC98D34FD07F0EE10DF34F /* KMMGhostLoginJSONSessionManager.h */,
+				EA1C9BC51BC60E6351BE1F12 /* KMMGhostLoginJSONSessionManager.m */,
+				57B66B39F1E2A6C0CA7D8E86 /* KMMGhostLoginSessionManager.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ADC78AC17DC99D55B3511F07 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A65B20618779AF2FE0C4525A /* AFNetworkActivityIndicatorManager.h */,
+				001012CF62EFDB23A3E654DE /* AFNetworkActivityIndicatorManager.m */,
+				4A4EE127C06F773EDE87AE66 /* UIActivityIndicatorView+AFNetworking.h */,
+				5B711314B97422FD17023B88 /* UIActivityIndicatorView+AFNetworking.m */,
+				CC5872A0DB6ECD42E2947656 /* UIAlertView+AFNetworking.h */,
+				73A5C252FB9A2CAF67E2F8E9 /* UIAlertView+AFNetworking.m */,
+				33313B4F6A72A2A51427971F /* UIButton+AFNetworking.h */,
+				47DDC6087867B83E8D66A0D5 /* UIButton+AFNetworking.m */,
+				DEA9257BBFE5C5DEFADBA5A3 /* UIImageView+AFNetworking.h */,
+				6A5ACCC9E918F9B9CF691565 /* UIImageView+AFNetworking.m */,
+				B8199027990913BAC46907C9 /* UIKit+AFNetworking.h */,
+				164CFDE051CAF399DFAA7BA6 /* UIProgressView+AFNetworking.h */,
+				AC8BE3C159F910D442205061 /* UIProgressView+AFNetworking.m */,
+				6CE64946D2A8FF601B3B6A46 /* UIRefreshControl+AFNetworking.h */,
+				D053A4C7AC4885D04CCDD253 /* UIRefreshControl+AFNetworking.m */,
+				3A85019F52ED3AEF4AA09C64 /* UIWebView+AFNetworking.h */,
+				C4364FBD0D6A6C7B8E2BAB10 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		AE832E04DC87C20088CC0534 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				667B88317B537B9AB8FCB0DC /* KMMGhostLoginClient.h */,
+				6EDCB979DF89124CDF685DCB /* KMMGhostLoginClient.m */,
+				2CF637699E066ECCBADFC25F /* Model */,
+				AD99C7AA22A78965BB7C3BE9 /* Network */,
+				584EFEF3D376B938123E03DF /* Parser */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AF766DB72ACABCED84CF309D /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				59F1675C96E73FAFD01C9E45 /* AFHTTPSessionManager.h */,
+				65271658EFC0D187137F5316 /* AFHTTPSessionManager.m */,
+				769BA947C8A8FBD1340EF1A3 /* AFURLSessionManager.h */,
+				5B36AC8E03BE00FA3B5136FD /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		B02573D17ECFB6C908030CA9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				44FE4B31C9A0F2EE2636F921 /* CoreGraphics.framework */,
+				532808FA26E58D244C58EB71 /* Foundation.framework */,
+				F7F4FFA52FEAA35FC1CF68BD /* MobileCoreServices.framework */,
+				CE3F42D9ABABF2634C98A276 /* Security.framework */,
+				FDC3EA365157C5FC88C6DF09 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B52C4F291B34E8BE64629B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CFBD32EB2E147407ADD31 /* GhostLoginClient.bundle */,
+				C0B64AB8EFB1B5926D9A5B2C /* GhostLoginClient.bundle */,
+				C2CA87AEB38BEB7272BBD138 /* libPods-GhostLoginClient_Example.a */,
+				C0A252C6C4F58E8550173AED /* libPods-GhostLoginClient_Example-AFNetworking.a */,
+				844C45867F44C4934D92C103 /* libPods-GhostLoginClient_Example-GhostLoginClient.a */,
+				9648991D6A50275131E1EC3A /* libPods-GhostLoginClient_Tests.a */,
+				0E337CA137875EC8FD83D818 /* libPods-GhostLoginClient_Tests-AFNetworking.a */,
+				5F0A4F542F80490D9E312FF1 /* libPods-GhostLoginClient_Tests-GhostLoginClient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DD47A7A34BAA9B687BC2AD = {
+			isa = PBXGroup;
+			children = (
+				D755AC23769D24E88DC084FE /* Podfile */,
+				0DE835836231DC640086B7BE /* Development Pods */,
+				715AC0386F4BB371D7844764 /* Frameworks */,
+				17300B80B7DC75303A641682 /* Pods */,
+				B52C4F291B34E8BE64629B8C /* Products */,
+				A1767785169694AB5D650DAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F50212D4657290524E67EF2E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3AABF123B0E7ABAE154342AD /* AFNetworkReachabilityManager.h */,
+				723DB6958534FB347A2600A0 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		FAAD2C7C3699F66ADF09CB92 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AE832E04DC87C20088CC0534 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FC5F9954C2DEBE53218ADE41 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				730A0D40FBBDCECA13B9A82E /* AFNetworking.h */,
+				2CF6F1501DD793B4D0686E5B /* NSURLConnection */,
+				AF766DB72ACABCED84CF309D /* NSURLSession */,
+				F50212D4657290524E67EF2E /* Reachability */,
+				40F39D8D7828C05ACE3F3863 /* Security */,
+				18C8F633F5B21EF43694956B /* Serialization */,
+				34797E664183932110EE891C /* Support Files */,
+				ADC78AC17DC99D55B3511F07 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0010416E3B2CD27912674646 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFF276B0518E3DE75ECD3B6 /* AFHTTPRequestOperation.h in Headers */,
+				E22AF6AAD418AFDCD476B09D /* AFHTTPRequestOperationManager.h in Headers */,
+				5A7E8CBAA1533A5E01A8031C /* AFHTTPSessionManager.h in Headers */,
+				895CC40853C1DB18F8C1CCD3 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				F3D53803669F95F68524DCAB /* AFNetworkReachabilityManager.h in Headers */,
+				E143E7D3D91A1E9D0FC053CF /* AFNetworking.h in Headers */,
+				9219A6F7F9B5A3BF4E78F42D /* AFSecurityPolicy.h in Headers */,
+				69879454609D649B5880BC81 /* AFURLConnectionOperation.h in Headers */,
+				3BDFC7FDAB077747B9FD4097 /* AFURLRequestSerialization.h in Headers */,
+				8278D28748EB8017D8C9F8E1 /* AFURLResponseSerialization.h in Headers */,
+				C3EDF02ECF09711E2F519DEB /* AFURLSessionManager.h in Headers */,
+				9D6A69FE716E6E298DC6EABF /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				0594EABD4D5A7B459B577E2F /* UIAlertView+AFNetworking.h in Headers */,
+				CBDBC8AC7D9A82700AD6DAAA /* UIButton+AFNetworking.h in Headers */,
+				53C47C8BC9226FDB0EF20585 /* UIImageView+AFNetworking.h in Headers */,
+				22EF8284208751A348AB73C5 /* UIKit+AFNetworking.h in Headers */,
+				34FCCDC58625CB76467C43F7 /* UIProgressView+AFNetworking.h in Headers */,
+				CE4117283F7B2779D75C2600 /* UIRefreshControl+AFNetworking.h in Headers */,
+				472521A725F13782911B6E87 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06289508C1897459286E5C3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7469CF036E28F415D67553AB /* AFHTTPRequestOperation.h in Headers */,
+				F3EC4F29789429ED4547F7C4 /* AFHTTPRequestOperationManager.h in Headers */,
+				B730A8AAC918B69B40EC969E /* AFHTTPSessionManager.h in Headers */,
+				E6FC369AE50F67EA29BCFA7C /* AFNetworkActivityIndicatorManager.h in Headers */,
+				0C22A8E870E86E8B0A0702BB /* AFNetworkReachabilityManager.h in Headers */,
+				972E589CFC3971958CB57303 /* AFNetworking.h in Headers */,
+				58C096D2EB59115FAE201939 /* AFSecurityPolicy.h in Headers */,
+				C88EFDF422CC2D496CC13C28 /* AFURLConnectionOperation.h in Headers */,
+				942AE5E78279F45BC053DE57 /* AFURLRequestSerialization.h in Headers */,
+				59DA331EA2151CBA6C8BB47C /* AFURLResponseSerialization.h in Headers */,
+				3239CAA000C30F771EB6D642 /* AFURLSessionManager.h in Headers */,
+				7ECAA2507A439A6AE2B37BFA /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				08D91F2EDE09084863EA5929 /* UIAlertView+AFNetworking.h in Headers */,
+				438D0E715F68A6DB59FC674D /* UIButton+AFNetworking.h in Headers */,
+				7C92A664E63C6AD8F6AAF09C /* UIImageView+AFNetworking.h in Headers */,
+				9AD885427613AA4D0A541736 /* UIKit+AFNetworking.h in Headers */,
+				B0EF97D766E539A991CD67E0 /* UIProgressView+AFNetworking.h in Headers */,
+				633888056F287E25EF2E5354 /* UIRefreshControl+AFNetworking.h in Headers */,
+				273260FE5C3A73E2BB702273 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8E64EC8DE1E5821D271E8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892AE597FCCE1C23E8274BB5 /* KMMGhostLoginClient.h in Headers */,
+				4B1C9130077A3F63192AC76C /* KMMGhostLoginJSONSessionManager.h in Headers */,
+				7BE906D0CF55370642DD41B4 /* KMMGhostLoginSessionManager.h in Headers */,
+				60B2E2E5A94EBEE0205D336A /* KMMGhostLoginToken.h in Headers */,
+				64C575A854DC056D29E04C02 /* KMMGhostLoginTokenJSONParser.h in Headers */,
+				38683A89EF406A3E5C8FED7A /* KMMGhostLoginTokenParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EE8CD804CCAAE385B71D80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812EED4FD502494C6EC573C3 /* KMMGhostLoginClient.h in Headers */,
+				4818177262901754C2799F5A /* KMMGhostLoginJSONSessionManager.h in Headers */,
+				2F686DDA81C0380ECA5C09B8 /* KMMGhostLoginSessionManager.h in Headers */,
+				8E33DD8691D3B713AF9E05C4 /* KMMGhostLoginToken.h in Headers */,
+				B70C96FA4F7361B8B6125EB4 /* KMMGhostLoginTokenJSONParser.h in Headers */,
+				F23458F1E682DEB88A6AAA65 /* KMMGhostLoginTokenParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2DF4A4160E4352B996D641C8 /* Pods-GhostLoginClient_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9818D568614184E19E19BE1 /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Tests" */;
+			buildPhases = (
+				DF552AD344DC1BB9F8D4A6EE /* Sources */,
+				0DD8FBA6B0DBEF9CFED56DB6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D583DAE84BCC27E6FCDEE5E /* PBXTargetDependency */,
+				8589A24FEC5CD594810EBD65 /* PBXTargetDependency */,
+			);
+			name = "Pods-GhostLoginClient_Tests";
+			productName = "Pods-GhostLoginClient_Tests";
+			productReference = 9648991D6A50275131E1EC3A /* libPods-GhostLoginClient_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2DF9CDDF0D56FBA58E711159 /* Pods-GhostLoginClient_Example-GhostLoginClient-GhostLoginClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866E66F9C789AA09BA09B02C /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Example-GhostLoginClient-GhostLoginClient" */;
+			buildPhases = (
+				E9F023FFC2E4D1EB9647A28B /* Sources */,
+				88E02478E49DFAD6CCA5280F /* Frameworks */,
+				BA18ADA99AB90E3038A67907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GhostLoginClient_Example-GhostLoginClient-GhostLoginClient";
+			productName = "Pods-GhostLoginClient_Example-GhostLoginClient-GhostLoginClient";
+			productReference = C0B64AB8EFB1B5926D9A5B2C /* GhostLoginClient.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4B9F4FE61EFECC13F3596932 /* Pods-GhostLoginClient_Tests-GhostLoginClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8994B9E6B822985D2B2E2DD /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Tests-GhostLoginClient" */;
+			buildPhases = (
+				6FA63D4D7B702EC49C9D2366 /* Sources */,
+				4C56AD76ABE74B704B71D265 /* Frameworks */,
+				E3EE8CD804CCAAE385B71D80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB00925CA3CD497A60F8B3E /* PBXTargetDependency */,
+				EC739AD12C098761A7CEAA7C /* PBXTargetDependency */,
+			);
+			name = "Pods-GhostLoginClient_Tests-GhostLoginClient";
+			productName = "Pods-GhostLoginClient_Tests-GhostLoginClient";
+			productReference = 5F0A4F542F80490D9E312FF1 /* libPods-GhostLoginClient_Tests-GhostLoginClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		607B61CC8752C714ADFD2AFB /* Pods-GhostLoginClient_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01935972CAB76780E970A66B /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Example" */;
+			buildPhases = (
+				3B9025C91B1EFDA706671920 /* Sources */,
+				EAE4D01245030A626B69C3E7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841CBD7B0BB0F109B942E67D /* PBXTargetDependency */,
+				A57B27DEDE46C642E2D70B3C /* PBXTargetDependency */,
+			);
+			name = "Pods-GhostLoginClient_Example";
+			productName = "Pods-GhostLoginClient_Example";
+			productReference = C2CA87AEB38BEB7272BBD138 /* libPods-GhostLoginClient_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7DF76E2AD5E8BB954279B92A /* Pods-GhostLoginClient_Tests-GhostLoginClient-GhostLoginClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F283CEE905E402F085F41D5F /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Tests-GhostLoginClient-GhostLoginClient" */;
+			buildPhases = (
+				C0CD39FAAFEC80EF77FE3FB0 /* Sources */,
+				638D4E18B93943E319FEC10E /* Frameworks */,
+				7CF01C6080585A878A4CD2E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GhostLoginClient_Tests-GhostLoginClient-GhostLoginClient";
+			productName = "Pods-GhostLoginClient_Tests-GhostLoginClient-GhostLoginClient";
+			productReference = 3E2CFBD32EB2E147407ADD31 /* GhostLoginClient.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D51DF136E8421FA89B91FD44 /* Pods-GhostLoginClient_Tests-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73FEF7658ED088441839B6CF /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Tests-AFNetworking" */;
+			buildPhases = (
+				888F8E9F5AD400DCE2543B3E /* Sources */,
+				8BD2D56D70912D67643A7169 /* Frameworks */,
+				06289508C1897459286E5C3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GhostLoginClient_Tests-AFNetworking";
+			productName = "Pods-GhostLoginClient_Tests-AFNetworking";
+			productReference = 0E337CA137875EC8FD83D818 /* libPods-GhostLoginClient_Tests-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EFF1B655DEE0E4A3DD2E1A7C /* Pods-GhostLoginClient_Example-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF78E29C70AC34C1C458997 /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Example-AFNetworking" */;
+			buildPhases = (
+				27666598AD48567DB01AA231 /* Sources */,
+				A21D9CD4CA789B69E231B471 /* Frameworks */,
+				0010416E3B2CD27912674646 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GhostLoginClient_Example-AFNetworking";
+			productName = "Pods-GhostLoginClient_Example-AFNetworking";
+			productReference = C0A252C6C4F58E8550173AED /* libPods-GhostLoginClient_Example-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD074AA8CC2330423DE79E6E /* Pods-GhostLoginClient_Example-GhostLoginClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CB4A6C90BE6A63988D9D84 /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Example-GhostLoginClient" */;
+			buildPhases = (
+				066426411ED442012261A64D /* Sources */,
+				A45B53731651E77F0CDD70B0 /* Frameworks */,
+				0B8E64EC8DE1E5821D271E8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				103927D34C21018432826BD6 /* PBXTargetDependency */,
+				7ACD00F51723402C01FD3F34 /* PBXTargetDependency */,
+			);
+			name = "Pods-GhostLoginClient_Example-GhostLoginClient";
+			productName = "Pods-GhostLoginClient_Example-GhostLoginClient";
+			productReference = 844C45867F44C4934D92C103 /* libPods-GhostLoginClient_Example-GhostLoginClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3525D9CEBF96E2D5272625B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 789CC024D4AC7376CE30C381 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0DD47A7A34BAA9B687BC2AD;
+			productRefGroup = B52C4F291B34E8BE64629B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607B61CC8752C714ADFD2AFB /* Pods-GhostLoginClient_Example */,
+				EFF1B655DEE0E4A3DD2E1A7C /* Pods-GhostLoginClient_Example-AFNetworking */,
+				FD074AA8CC2330423DE79E6E /* Pods-GhostLoginClient_Example-GhostLoginClient */,
+				2DF9CDDF0D56FBA58E711159 /* Pods-GhostLoginClient_Example-GhostLoginClient-GhostLoginClient */,
+				2DF4A4160E4352B996D641C8 /* Pods-GhostLoginClient_Tests */,
+				D51DF136E8421FA89B91FD44 /* Pods-GhostLoginClient_Tests-AFNetworking */,
+				4B9F4FE61EFECC13F3596932 /* Pods-GhostLoginClient_Tests-GhostLoginClient */,
+				7DF76E2AD5E8BB954279B92A /* Pods-GhostLoginClient_Tests-GhostLoginClient-GhostLoginClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CF01C6080585A878A4CD2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA18ADA99AB90E3038A67907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		066426411ED442012261A64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D36D77D72BA3526E6162E63 /* KMMGhostLoginClient.m in Sources */,
+				C7488734E1A752AC0FD936D8 /* KMMGhostLoginJSONSessionManager.m in Sources */,
+				322DDDCE63AF19783008DD94 /* KMMGhostLoginToken.m in Sources */,
+				A8ED48E280B60783605130EE /* KMMGhostLoginTokenJSONParser.m in Sources */,
+				DB14F6B532E568B77460DB4D /* KMMGhostLoginTokenParser.m in Sources */,
+				F397D9B94B81C4B578CACFF0 /* Pods-GhostLoginClient_Example-GhostLoginClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27666598AD48567DB01AA231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F3C449C46C56D3C8C25BBF /* AFHTTPRequestOperation.m in Sources */,
+				EFA2F96A6CFE5EF8B3F4DE99 /* AFHTTPRequestOperationManager.m in Sources */,
+				0AF47686BDD6337AE479BEEE /* AFHTTPSessionManager.m in Sources */,
+				AED9D876C168BC88EF9516FD /* AFNetworkActivityIndicatorManager.m in Sources */,
+				F1A4DFA11EBE8ACBBB8647C2 /* AFNetworkReachabilityManager.m in Sources */,
+				B256D0CE206805CD612D10A2 /* AFSecurityPolicy.m in Sources */,
+				276282507B8BA16C88EE0934 /* AFURLConnectionOperation.m in Sources */,
+				AB68FB5B03C5DB2B5A36EE98 /* AFURLRequestSerialization.m in Sources */,
+				3FA8A318003A23FA4F788171 /* AFURLResponseSerialization.m in Sources */,
+				8DAC7C21F56B7376C9F28188 /* AFURLSessionManager.m in Sources */,
+				CEF11D4BA154521E80145B69 /* Pods-GhostLoginClient_Example-AFNetworking-dummy.m in Sources */,
+				3592106A15F50CF731D66E43 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				E1EBCE1FEA7BACE490BB9E8F /* UIAlertView+AFNetworking.m in Sources */,
+				E6A9B2768F334FA5CFED64A3 /* UIButton+AFNetworking.m in Sources */,
+				5B771DC7C1A9D4AAF89E6CF1 /* UIImageView+AFNetworking.m in Sources */,
+				9063BE97CEF5142AF7655DA9 /* UIProgressView+AFNetworking.m in Sources */,
+				AF9F25716137ADCD3D2E5E9D /* UIRefreshControl+AFNetworking.m in Sources */,
+				9F551D9D119E7C6595C21ABC /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9025C91B1EFDA706671920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C52176A369E6637EE2317C2 /* Pods-GhostLoginClient_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA63D4D7B702EC49C9D2366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42AC8405B1084847887274A /* KMMGhostLoginClient.m in Sources */,
+				7B3E59BA5B246CEA67C2E3DF /* KMMGhostLoginJSONSessionManager.m in Sources */,
+				690B784DFE9E10748B621BE1 /* KMMGhostLoginToken.m in Sources */,
+				4BA306A754138260BAAA212C /* KMMGhostLoginTokenJSONParser.m in Sources */,
+				998205CD9628B109C9E34DBB /* KMMGhostLoginTokenParser.m in Sources */,
+				308380F37C1A4C03DCC6D68B /* Pods-GhostLoginClient_Tests-GhostLoginClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888F8E9F5AD400DCE2543B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F9567C160901851C4FBE05 /* AFHTTPRequestOperation.m in Sources */,
+				C6A56AED6628870B8AA13161 /* AFHTTPRequestOperationManager.m in Sources */,
+				989A42B76003BB36C1FBA725 /* AFHTTPSessionManager.m in Sources */,
+				882C16F11E489F264A5BAB7A /* AFNetworkActivityIndicatorManager.m in Sources */,
+				F4A748A0636DC61F83F382A9 /* AFNetworkReachabilityManager.m in Sources */,
+				86ED274A1F3464DFC73482F2 /* AFSecurityPolicy.m in Sources */,
+				17570668C3916177260A21B7 /* AFURLConnectionOperation.m in Sources */,
+				F695DEB7495579B5EB99D8E5 /* AFURLRequestSerialization.m in Sources */,
+				52AC655E45C488DB448A9BF3 /* AFURLResponseSerialization.m in Sources */,
+				1111611BA9A24F7881FA2A16 /* AFURLSessionManager.m in Sources */,
+				E50E5DB58F32358842A542AA /* Pods-GhostLoginClient_Tests-AFNetworking-dummy.m in Sources */,
+				3E09C9EC46570748DE82AEB2 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				3B03601C61B10A89EA790D8A /* UIAlertView+AFNetworking.m in Sources */,
+				5485764DCB06D054749758D6 /* UIButton+AFNetworking.m in Sources */,
+				10E15B1CB0552416BE6C8CAB /* UIImageView+AFNetworking.m in Sources */,
+				32E97293B8F46673E483ABF3 /* UIProgressView+AFNetworking.m in Sources */,
+				126ED943C4A76F454520130A /* UIRefreshControl+AFNetworking.m in Sources */,
+				E5EFEE17BDBA1D9FA36E53EC /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CD39FAAFEC80EF77FE3FB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF552AD344DC1BB9F8D4A6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F58D04076E45D1B85072C9 /* Pods-GhostLoginClient_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F023FFC2E4D1EB9647A28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		103927D34C21018432826BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GhostLoginClient_Example-AFNetworking";
+			target = EFF1B655DEE0E4A3DD2E1A7C /* Pods-GhostLoginClient_Example-AFNetworking */;
+			targetProxy = ABEA10C2575D56A1E7AE3837 /* PBXContainerItemProxy */;
+		};
+		7ACD00F51723402C01FD3F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GhostLoginClient_Example-GhostLoginClient-GhostLoginClient";
+			target = 2DF9CDDF0D56FBA58E711159 /* Pods-GhostLoginClient_Example-GhostLoginClient-GhostLoginClient */;
+			targetProxy = 4ADAB79B92B3FF96263B97DC /* PBXContainerItemProxy */;
+		};
+		7D583DAE84BCC27E6FCDEE5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GhostLoginClient_Tests-AFNetworking";
+			target = D51DF136E8421FA89B91FD44 /* Pods-GhostLoginClient_Tests-AFNetworking */;
+			targetProxy = E48DC611E7D930965AC7DD0F /* PBXContainerItemProxy */;
+		};
+		841CBD7B0BB0F109B942E67D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GhostLoginClient_Example-AFNetworking";
+			target = EFF1B655DEE0E4A3DD2E1A7C /* Pods-GhostLoginClient_Example-AFNetworking */;
+			targetProxy = CA6DBCB290DF9B24FDA986DE /* PBXContainerItemProxy */;
+		};
+		8589A24FEC5CD594810EBD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GhostLoginClient_Tests-GhostLoginClient";
+			target = 4B9F4FE61EFECC13F3596932 /* Pods-GhostLoginClient_Tests-GhostLoginClient */;
+			targetProxy = 7634180CE93B5CA4242BC79C /* PBXContainerItemProxy */;
+		};
+		A57B27DEDE46C642E2D70B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GhostLoginClient_Example-GhostLoginClient";
+			target = FD074AA8CC2330423DE79E6E /* Pods-GhostLoginClient_Example-GhostLoginClient */;
+			targetProxy = E59F29404E538B560C349494 /* PBXContainerItemProxy */;
+		};
+		EC739AD12C098761A7CEAA7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GhostLoginClient_Tests-GhostLoginClient-GhostLoginClient";
+			target = 7DF76E2AD5E8BB954279B92A /* Pods-GhostLoginClient_Tests-GhostLoginClient-GhostLoginClient */;
+			targetProxy = 2B5E1CB29D5AB30AEE9C1163 /* PBXContainerItemProxy */;
+		};
+		FDB00925CA3CD497A60F8B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GhostLoginClient_Tests-AFNetworking";
+			target = D51DF136E8421FA89B91FD44 /* Pods-GhostLoginClient_Tests-AFNetworking */;
+			targetProxy = 3AA7252CF1FE06AA3F4872C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		014C79AF39985F6E7BD3D6C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838EA53C08440A69649DC446 /* Pods-GhostLoginClient_Example-GhostLoginClient-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GhostLoginClient_Example-GhostLoginClient/Pods-GhostLoginClient_Example-GhostLoginClient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0E9F91B874B52F43C5C6FABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		115150EA7F5883D4262B5584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBDAB1C12AA799717F7C60B /* Pods-GhostLoginClient_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		16A38563A034FEF0F8723457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF8DF1975710CBF57E4021D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20739869596CBECC5A3A8B2 /* Pods-GhostLoginClient_Tests-GhostLoginClient-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GhostLoginClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4526B7C8699284FE7026A22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20739869596CBECC5A3A8B2 /* Pods-GhostLoginClient_Tests-GhostLoginClient-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GhostLoginClient_Tests-GhostLoginClient/Pods-GhostLoginClient_Tests-GhostLoginClient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		46A41468C5B0BA8D0B2478F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20739869596CBECC5A3A8B2 /* Pods-GhostLoginClient_Tests-GhostLoginClient-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GhostLoginClient_Tests-GhostLoginClient/Pods-GhostLoginClient_Tests-GhostLoginClient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4F6B67532DD887973846476F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838EA53C08440A69649DC446 /* Pods-GhostLoginClient_Example-GhostLoginClient-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GhostLoginClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6939D9690E08898881FA181A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F21084DDA20F98FEE77D4A6 /* Pods-GhostLoginClient_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7D252D7655F876C847A0F67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838EA53C08440A69649DC446 /* Pods-GhostLoginClient_Example-GhostLoginClient-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GhostLoginClient_Example-GhostLoginClient/Pods-GhostLoginClient_Example-GhostLoginClient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A8BDDBC99BFDD5FBE8F7BB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934F7A61D197FEF2DED7A57E /* Pods-GhostLoginClient_Example-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GhostLoginClient_Example-AFNetworking/Pods-GhostLoginClient_Example-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A8DC1D5B94DA44E181D39805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934F7A61D197FEF2DED7A57E /* Pods-GhostLoginClient_Example-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GhostLoginClient_Example-AFNetworking/Pods-GhostLoginClient_Example-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AEA8081C154265700B0557FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000A0A3D763D5EF101CC7B26 /* Pods-GhostLoginClient_Tests-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GhostLoginClient_Tests-AFNetworking/Pods-GhostLoginClient_Tests-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C0CF48E8013E745693624BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838EA53C08440A69649DC446 /* Pods-GhostLoginClient_Example-GhostLoginClient-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GhostLoginClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D527FFB18F6526D9798E86A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000A0A3D763D5EF101CC7B26 /* Pods-GhostLoginClient_Tests-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GhostLoginClient_Tests-AFNetworking/Pods-GhostLoginClient_Tests-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D6B92A1AE62FEAC9C2D299B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20739869596CBECC5A3A8B2 /* Pods-GhostLoginClient_Tests-GhostLoginClient-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GhostLoginClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E10201CFCBA813912222FC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05719CFF3F9EE0F28847F636 /* Pods-GhostLoginClient_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FE9CBF41C466945E95E4F6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CE102AD3FB708AAC6B59F6 /* Pods-GhostLoginClient_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01935972CAB76780E970A66B /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115150EA7F5883D4262B5584 /* Debug */,
+				E10201CFCBA813912222FC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27CB4A6C90BE6A63988D9D84 /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Example-GhostLoginClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D252D7655F876C847A0F67F /* Debug */,
+				014C79AF39985F6E7BD3D6C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73FEF7658ED088441839B6CF /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Tests-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA8081C154265700B0557FE /* Debug */,
+				D527FFB18F6526D9798E86A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789CC024D4AC7376CE30C381 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E9F91B874B52F43C5C6FABC /* Debug */,
+				16A38563A034FEF0F8723457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866E66F9C789AA09BA09B02C /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Example-GhostLoginClient-GhostLoginClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CF48E8013E745693624BAF /* Debug */,
+				4F6B67532DD887973846476F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF78E29C70AC34C1C458997 /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Example-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BDDBC99BFDD5FBE8F7BB9A /* Debug */,
+				A8DC1D5B94DA44E181D39805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8994B9E6B822985D2B2E2DD /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Tests-GhostLoginClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4526B7C8699284FE7026A22F /* Debug */,
+				46A41468C5B0BA8D0B2478F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F283CEE905E402F085F41D5F /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Tests-GhostLoginClient-GhostLoginClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B92A1AE62FEAC9C2D299B1 /* Debug */,
+				3FF8DF1975710CBF57E4021D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9818D568614184E19E19BE1 /* Build configuration list for PBXNativeTarget "Pods-GhostLoginClient_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6939D9690E08898881FA181A /* Debug */,
+				FE9CBF41C466945E95E4F6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3525D9CEBF96E2D5272625B7 /* Project object */;
+}
