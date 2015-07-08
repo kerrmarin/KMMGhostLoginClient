@@ -41,6 +41,8 @@ it, simply add the following line to your Podfile:
 pod "KMMGhostLoginClient"
 ```
 
+Alternatively, although I discourage this approach, clone the project and copy all the files under the `Pod` folder into your project.
+
 ## Author
 
 Kerr Marin Miller, @kerrmarin, www.kerrmarin.com
