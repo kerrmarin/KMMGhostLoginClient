@@ -14,16 +14,16 @@ To login to a Ghost blog use the `KMMGhostLoginClient`, then create an instance 
 ```objective-c
 
 KMMGhostLoginClient *client = [[KMMGhostLoginClient alloc] initWithManager:manager parser:parser];
-    [client loginWithUsername:@"username"
-                     password:@"password"
-                     complete:^(KMMGhostLoginToken *__nullable token, NSError *__nullable error) {
-        if(error) {
-            NSLog(@"An error occurred");
-        } else {
-            //Use token here to get your auth token
-            NSString *accessToken = token.accessToken;
-        }
-    }];
+[client loginWithUsername:@"username"
+                 password:@"password"
+                 complete:^(KMMGhostLoginToken *__nullable token, NSError *__nullable error) {
+    if(error) {
+        NSLog(@"An error occurred");
+    } else {
+        //Use token here to get your auth token
+        NSString *accessToken = token.accessToken;
+    }
+}];
 
 ```
 
