@@ -47,19 +47,14 @@
                 complete(self.token, nil);
                 //Schedule a token refresh automatically
                 self.refreshToken = [self.parser refreshTokenFromResponse:results error:nil];
-                
+                //Refresh the token before it expires
                 NSTimeInterval refreshInterval = self.token.expiry * 0.9;
-                NSDate *firstFireDate = [[NSDate alloc] initWithTimeInterval:refreshInterval sinceDate:[NSDate date]];
-                
                 [self.timer invalidate];
-                self.timer = [[NSTimer alloc] initWithFireDate:firstFireDate
-                                                      interval:refreshInterval
-                                                        target:self
-                                                      selector:@selector(tick)
-                                                      userInfo:nil
-                                                       repeats:YES];
-                
-                [[NSRunLoop mainRunLoop] addTimer:self.timer forMode:NSDefaultRunLoopMode];
+                self.timer = [NSTimer scheduledTimerWithTimeInterval:refreshInterval
+                                                               target:self
+                                                             selector:@selector(tick:)
+                                                             userInfo:nil
+                                                              repeats:YES];
             } else {
                 complete(nil, error);
             }
@@ -67,7 +62,7 @@
     }];
 }
 
--(void)tick {
+-(void)tick:(NSTimer*)timer {
     [self.manager refreshTokenWithRefreshToken:self.refreshToken
                                       complete:^(id results, NSError *error) {
                                           if(!error) {
