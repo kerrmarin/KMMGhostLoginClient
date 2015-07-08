@@ -20,18 +20,24 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - GhostLoginClient (0.1.0):
+  - KMMGhostLoginClient (0.1.0):
     - AFNetworking (~> 2.5.4)
+  - OCHamcrest (4.1.1)
+  - OCMockito (1.4.0):
+    - OCHamcrest (~> 4.0)
 
 DEPENDENCIES:
-  - GhostLoginClient (from `../`)
+  - KMMGhostLoginClient (from `../`)
+  - OCMockito (~> 1.4)
 
 EXTERNAL SOURCES:
-  GhostLoginClient:
+  KMMGhostLoginClient:
     :path: ../
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
-  GhostLoginClient: a53e47c5f8d614b82a40785d895bc6c8980cf813
+  KMMGhostLoginClient: 68a5aec8efa8533308a491c8ed006d93326121e6
+  OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
+  OCMockito: 4981140c9a9ec06c31af40f636e3c0f25f27e6b2
 
 COCOAPODS: 0.37.1

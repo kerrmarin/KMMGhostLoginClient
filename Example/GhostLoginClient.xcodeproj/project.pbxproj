@@ -10,6 +10,7 @@
 		57840C8D1B488F5E00C625E0 /* KMMGhostLoginTokenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57840C8C1B488F5E00C625E0 /* KMMGhostLoginTokenTests.m */; };
 		57840C8F1B48959600C625E0 /* KMMGhostLoginTokenJSONSessionManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57840C8E1B48959600C625E0 /* KMMGhostLoginTokenJSONSessionManagerTests.m */; };
 		57C513CF1B4803AA000933E6 /* KMMGhostLoginTokenJSONParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C513CE1B4803AA000933E6 /* KMMGhostLoginTokenJSONParserTests.m */; };
+		57DA435A1B4DA0F1001AC4AC /* KMMGhostLoginClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DA43591B4DA0F1001AC4AC /* KMMGhostLoginClientTests.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -44,6 +45,7 @@
 		57840C8C1B488F5E00C625E0 /* KMMGhostLoginTokenTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMMGhostLoginTokenTests.m; sourceTree = "<group>"; };
 		57840C8E1B48959600C625E0 /* KMMGhostLoginTokenJSONSessionManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMMGhostLoginTokenJSONSessionManagerTests.m; sourceTree = "<group>"; };
 		57C513CE1B4803AA000933E6 /* KMMGhostLoginTokenJSONParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMMGhostLoginTokenJSONParserTests.m; sourceTree = "<group>"; };
+		57DA43591B4DA0F1001AC4AC /* KMMGhostLoginClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMMGhostLoginClientTests.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GhostLoginClient_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhostLoginClient_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -174,6 +176,7 @@
 				57C513CE1B4803AA000933E6 /* KMMGhostLoginTokenJSONParserTests.m */,
 				57840C8C1B488F5E00C625E0 /* KMMGhostLoginTokenTests.m */,
 				57840C8E1B48959600C625E0 /* KMMGhostLoginTokenJSONSessionManagerTests.m */,
+				57DA43591B4DA0F1001AC4AC /* KMMGhostLoginClientTests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -376,6 +379,7 @@
 			files = (
 				57C513CF1B4803AA000933E6 /* KMMGhostLoginTokenJSONParserTests.m in Sources */,
 				57840C8D1B488F5E00C625E0 /* KMMGhostLoginTokenTests.m in Sources */,
+				57DA435A1B4DA0F1001AC4AC /* KMMGhostLoginClientTests.m in Sources */,
 				57840C8F1B48959600C625E0 /* KMMGhostLoginTokenJSONSessionManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

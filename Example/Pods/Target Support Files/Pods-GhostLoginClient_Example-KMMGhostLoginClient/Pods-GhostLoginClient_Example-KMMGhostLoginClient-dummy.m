@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_GhostLoginClient_Example_KMMGhostLoginClient : NSObject
+@end
+@implementation PodsDummy_Pods_GhostLoginClient_Example_KMMGhostLoginClient
+@end

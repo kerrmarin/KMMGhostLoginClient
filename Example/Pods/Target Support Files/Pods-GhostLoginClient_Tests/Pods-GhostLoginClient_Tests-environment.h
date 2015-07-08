@@ -48,9 +48,21 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 5
 #define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 4
 
-// GhostLoginClient
-#define COCOAPODS_POD_AVAILABLE_GhostLoginClient
-#define COCOAPODS_VERSION_MAJOR_GhostLoginClient 0
-#define COCOAPODS_VERSION_MINOR_GhostLoginClient 1
-#define COCOAPODS_VERSION_PATCH_GhostLoginClient 0
+// KMMGhostLoginClient
+#define COCOAPODS_POD_AVAILABLE_KMMGhostLoginClient
+#define COCOAPODS_VERSION_MAJOR_KMMGhostLoginClient 0
+#define COCOAPODS_VERSION_MINOR_KMMGhostLoginClient 1
+#define COCOAPODS_VERSION_PATCH_KMMGhostLoginClient 0
+
+// OCHamcrest
+#define COCOAPODS_POD_AVAILABLE_OCHamcrest
+#define COCOAPODS_VERSION_MAJOR_OCHamcrest 4
+#define COCOAPODS_VERSION_MINOR_OCHamcrest 1
+#define COCOAPODS_VERSION_PATCH_OCHamcrest 1
+
+// OCMockito
+#define COCOAPODS_POD_AVAILABLE_OCMockito
+#define COCOAPODS_VERSION_MAJOR_OCMockito 1
+#define COCOAPODS_VERSION_MINOR_OCMockito 4
+#define COCOAPODS_VERSION_PATCH_OCMockito 0
 
