@@ -1,6 +1,6 @@
 # GhostLoginClient
 
-[![CI Status](http://img.shields.io/travis/Kerr Marin Miller/GhostLoginClient.svg?style=flat)](https://travis-ci.org/Kerr Marin Miller/GhostLoginClient)
+[![CI Status](http://img.shields.io/travis/kerrmarin/GhostLoginClient.svg?style=flat)](https://travis-ci.org/kerrmarin/GhostLoginClient)
 [![Version](https://img.shields.io/cocoapods/v/GhostLoginClient.svg?style=flat)](http://cocoapods.org/pods/GhostLoginClient)
 [![License](https://img.shields.io/cocoapods/l/GhostLoginClient.svg?style=flat)](http://cocoapods.org/pods/GhostLoginClient)
 [![Platform](https://img.shields.io/cocoapods/p/GhostLoginClient.svg?style=flat)](http://cocoapods.org/pods/GhostLoginClient)
