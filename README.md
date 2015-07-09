@@ -1,9 +1,9 @@
 # GhostLoginClient
 
-[![CI Status](https://travis-ci.org/kerrmarin/KMMGhostLoginClient.svg?branch=master)](https://travis-ci.org/kerrmarin/GhostLoginClient)
-[![Version](https://img.shields.io/cocoapods/v/GhostLoginClient.svg?style=flat)](http://cocoapods.org/pods/GhostLoginClient)
-[![License](https://img.shields.io/cocoapods/l/GhostLoginClient.svg?style=flat)](http://cocoapods.org/pods/GhostLoginClient)
-[![Platform](https://img.shields.io/cocoapods/p/GhostLoginClient.svg?style=flat)](http://cocoapods.org/pods/GhostLoginClient)
+[![CI Status](https://travis-ci.org/kerrmarin/KMMGhostLoginClient.svg?branch=master)](https://travis-ci.org/kerrmarin/KMMGhostLoginClient)
+[![Version](https://img.shields.io/cocoapods/v/KMMGhostLoginClient.svg?style=flat)](http://cocoapods.org/pods/KMMGhostLoginClient)
+[![License](https://img.shields.io/cocoapods/l/KMMGhostLoginClient.svg?style=flat)](http://cocoapods.org/pods/KMMGhostLoginClient)
+[![Platform](https://img.shields.io/cocoapods/p/KMMGhostLoginClient.svg?style=flat)](http://cocoapods.org/pods/KMMGhostLoginClient)
 
 ## Usage
 
