@@ -1,6 +1,6 @@
 {
   "name": "KMMGhostLoginClient",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A client library to log into an installation of Ghost",
   "description": "                       KMMGhostLoginClient is an Objective-C client for the Ghost authentication API.  \n\n",
   "homepage": "https://github.com/kerrmarin/KMMGhostLoginClient",
@@ -10,11 +10,11 @@
   },
   "source": {
     "git": "https://github.com/kerrmarin/KMMGhostLoginClient.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "social_media_url": "https://twitter.com/kerrmarin",
   "platforms": {
-    "ios": "8.0"
+    "ios": "8.4"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",

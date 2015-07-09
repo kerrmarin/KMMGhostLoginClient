@@ -52,5 +52,5 @@
 #define COCOAPODS_POD_AVAILABLE_KMMGhostLoginClient
 #define COCOAPODS_VERSION_MAJOR_KMMGhostLoginClient 0
 #define COCOAPODS_VERSION_MINOR_KMMGhostLoginClient 1
-#define COCOAPODS_VERSION_PATCH_KMMGhostLoginClient 0
+#define COCOAPODS_VERSION_PATCH_KMMGhostLoginClient 1
 
