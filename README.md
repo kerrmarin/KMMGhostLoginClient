@@ -1,4 +1,4 @@
-# GhostLoginClient
+# KMMGhostLoginClient
 
 [![CI Status](https://travis-ci.org/kerrmarin/KMMGhostLoginClient.svg?branch=master)](https://travis-ci.org/kerrmarin/KMMGhostLoginClient)
 [![Version](https://img.shields.io/cocoapods/v/KMMGhostLoginClient.svg?style=flat)](http://cocoapods.org/pods/KMMGhostLoginClient)
