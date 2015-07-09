@@ -9,8 +9,6 @@
 @import Foundation;
 #import "KMMGhostLoginTokenParser.h"
 
-@class KMMGhostLoginToken;
-
 NS_ASSUME_NONNULL_BEGIN
 
 @interface KMMGhostLoginTokenJSONParser : NSObject <KMMGhostLoginTokenParser>

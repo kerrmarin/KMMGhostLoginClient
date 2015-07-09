@@ -40,11 +40,15 @@
                 complete:(KMMGhostLoginBlock)complete {
     [self.manager loginWithUsername:username password:password complete:^(id results, NSError *error) {
         if(error) {
-            complete(nil, error);
+            if(complete) {
+                complete(nil, error);
+            }
         } else {
             self.token = [self.parser tokenFromResponse:results error:&error];
             if(self.token) {
-                complete(self.token, nil);
+                if(complete) {
+                    complete(self.token, nil);
+                }
                 //Schedule a token refresh automatically
                 self.refreshToken = [self.parser refreshTokenFromResponse:results error:nil];
                 //Refresh the token before it expires
@@ -56,7 +60,9 @@
                                                              userInfo:nil
                                                               repeats:YES];
             } else {
-                complete(nil, error);
+                if(complete) {
+                    complete(nil, error);
+                }
             }
         }
     }];
