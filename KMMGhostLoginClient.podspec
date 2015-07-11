@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "KMMGhostLoginClient"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "A client library to log into an installation of Ghost"
   s.description      = <<-DESC
                        KMMGhostLoginClient is an Objective-C client for the Ghost authentication API.  
