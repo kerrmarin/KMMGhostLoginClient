@@ -49,16 +49,13 @@
                 if(complete) {
                     complete(self.token, nil);
                 }
-                //Schedule a token refresh automatically
-                self.refreshToken = [self.parser refreshTokenFromResponse:results error:nil];
-                //Refresh the token before it expires
-                NSTimeInterval refreshInterval = self.token.expiry * 0.9;
-                [self.timer invalidate];
-                self.timer = [NSTimer scheduledTimerWithTimeInterval:refreshInterval
-                                                               target:self
-                                                             selector:@selector(tick:)
-                                                             userInfo:nil
-                                                              repeats:YES];
+                //Schedule a token refresh automatically if we can find a refresh token in the response
+                NSString *refreshToken = [self.parser refreshTokenFromResponse:results error:nil];
+                if(refreshToken) {
+                    self.refreshToken = refreshToken;
+                    [self.timer invalidate];
+                    [self setRefreshTimer];
+                }
             } else {
                 if(complete) {
                     complete(nil, error);
@@ -68,16 +65,30 @@
     }];
 }
 
+-(void)setRefreshTimer {
+    //Refresh the token before it expires
+    NSTimeInterval refreshInterval = self.token.expiry * 0.9;
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:refreshInterval
+                                                  target:self
+                                                selector:@selector(tick:)
+                                                userInfo:nil
+                                                 repeats:YES];
+}
+
 -(void)tick:(NSTimer*)timer {
     [self.manager refreshTokenWithRefreshToken:self.refreshToken
                                       complete:^(id results, NSError *error) {
                                           if(!error) {
                                               self.token = [self.parser tokenFromResponse:results error:&error];
                                               if(error) {
-                                                  NSAssert(NO, @"Error refreshing the token");
+                                                  NSAssert(NO, @"Error parsing the refresh token");
                                               }
                                           }
     }];
+}
+
+-(void)storeRefreshToken {
+    
 }
 
 @end
