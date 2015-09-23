@@ -30,7 +30,7 @@ KMMGhostLoginClient *client = [[KMMGhostLoginClient alloc] initWithManager:manag
 
 ## Requirements
 
-This project requires the latest iOS, iOS 8.4. It also has a dependency on AFNetworking version 2.5.4.
+This project requires the latest iOS, iOS 8.4. It also has a dependency on AFNetworking version 2.6.
 
 ## Installation
 
