@@ -29,5 +29,5 @@ Pod::Spec.new do |s|
     'GhostLoginClient' => ['Pod/Assets/*.png']
   }
 
-  s.dependency 'AFNetworking', '~> 2.5.4'
+  s.dependency 'AFNetworking', '~> 2.6.0'
 end

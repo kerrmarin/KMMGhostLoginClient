@@ -39,6 +39,8 @@ typedef void (^KMMGhostLoginBlock)(KMMGhostLoginToken *__nullable token, NSError
 -(instancetype)initWithManager:(id<KMMGhostLoginSessionManager>)manager
                         parser:(id<KMMGhostLoginTokenParser>)parser NS_DESIGNATED_INITIALIZER;
 
+-(instancetype)init NS_UNAVAILABLE;
+
 /**
  *  Logs a user in with a username and password. Pass in an optional completion block to immediately
  *  retrieve the value of the token.

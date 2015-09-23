@@ -40,6 +40,8 @@ NS_ASSUME_NONNULL_BEGIN
                             expiry:(NSUInteger)expiry
                          tokenType:(NSString*)tokenType NS_DESIGNATED_INITIALIZER;
 
+-(instancetype)init NS_UNAVAILABLE;
+
 @end
 
 NS_ASSUME_NONNULL_END
