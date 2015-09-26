@@ -67,7 +67,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		68C899458C238A380D12D856 /* libPods-GhostLoginClient_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostLoginClient_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BF6F2E3D50F836578EB743E /* GhostLoginClient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GhostLoginClient.podspec; path = ../GhostLoginClient.podspec; sourceTree = "<group>"; };
+		6BF6F2E3D50F836578EB743E /* KMMGhostLoginClient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KMMGhostLoginClient.podspec; path = ../KMMGhostLoginClient.podspec; sourceTree = "<group>"; };
 		858C2E8094C0A34891FB7363 /* Pods-GhostLoginClient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostLoginClient_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GhostLoginClient_Tests/Pods-GhostLoginClient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C0B9DF84A05998EA80AAFFD5 /* Pods-GhostLoginClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostLoginClient_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GhostLoginClient_Example/Pods-GhostLoginClient_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -198,7 +198,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				6BF6F2E3D50F836578EB743E /* GhostLoginClient.podspec */,
+				6BF6F2E3D50F836578EB743E /* KMMGhostLoginClient.podspec */,
 				112863E41FA0FCFD0D9678C1 /* README.md */,
 				44A6BF1EF6410AA41D2DAFA3 /* LICENSE */,
 			);
