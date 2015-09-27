@@ -87,8 +87,4 @@
     }];
 }
 
--(void)storeRefreshToken {
-    
-}
-
 @end
